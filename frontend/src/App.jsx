@@ -15,7 +15,7 @@ export default function App() {
     setReport("");
 
     try {
-      const res = await fetch(`http://127.0.0.1:8000/analyze/${sector}`, {
+      const res = await fetch(`https://trade-qf5j.onrender.com/analyze/${sector}`, {
         headers: {
           Authorization: "Bearer mysecrettoken",
         },
